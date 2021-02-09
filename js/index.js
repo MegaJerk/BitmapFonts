@@ -147,7 +147,7 @@ var createFontMap = function (fontDef) {
 		var fontCols = fontDef.cols;
 
 		fontMaps[fontDef.name] = {
-			url: "../processed_fonts/" + fontDef.name + ".png",
+			url: "./processed_fonts/" + fontDef.name + ".png",
 			tileW: fontDef.tileW,
 			tileH: fontDef.tileH
 		};
